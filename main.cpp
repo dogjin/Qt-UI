@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QString style_sheet = readTextFile(":/stylesheets/material-blue.qss");
+    QString style_sheet = readTextFile(":/material-blue.qss");
     a.setStyleSheet(style_sheet);
 
     MainWindow w;
